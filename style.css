@@ -1,0 +1,148 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;          /* pura screen ko do bhago me bat dega verticle | */
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img{
+    width: 36%;
+    /* background-color: rgb(222, 172, 172); */
+    border: 2px solid rgb(186, 34, 34);  
+    border-radius: 37px;
+}
+.nav-list{
+    width: 64%;
+    display: flex;          /* display flex se content barabar me aa jate hai.*/
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: rgb(64, 99, 99); */
+}
+.nav-list li{
+    list-style: none;       /* jo bindi rahti hai oo chali jaati hai */
+    padding: 29px 23px;
+
+}
+.nav-list li a{
+    text-decoration: none;  /* jo underline rahti hai neeche oo chali jati hai */
+    color: white;
+    font-weight: bold;
+}
+.nav-list li a:hover{
+    text-decoration: none;  /* jo underline rahti hai neeche oo chali jati hai */
+    color: rgb(225, 101, 101);
+    font-weight: bold;
+}
+.rightNav{
+    /* background-color: blueviolet; */
+    width: 40%;
+    text-align: right;
+    padding: 0px 22px
+
+}
+#search{
+    font-size: 15px;
+    padding: 6px;
+    border: 2px solid red;
+    border-radius: 12px;
+    outline: none;
+    background: none;
+
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+/* This is use only for the background  */
+.background{
+    background: rgba(0, 0, 0, 0.7) url('image/city.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.fistSection{
+    height: 100vh;
+}
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 82%;
+    height: 70%;
+    margin: auto;
+}
+.first-part{
+    display: flex;
+    width: 142%;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-part{
+    /* display: flex; */
+}
+.second-part img{
+    width: 50%;
+    padding: 1px 27px;
+    border: 3px solid #ff2121;
+    border-radius: 60%;
+    display: block;
+    margin: auto;
+    background-color: #a5a58f;
+}
+.para-big{
+    font-size: 50px;
+    padding: 30px 0px;
+}
+.para-small{
+    font-size: 20px;
+    padding: 10px;
+}
+.btn{
+    padding: 2px 23px;
+    border-radius: 14px;
+    margin: 8px 11px;
+    border: 2px solid red;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    background: none;
+    color: white;
+    /* transform: scale(1.2); isse over karne par button zoom hoti hai */
+}
+.btn-sm{
+    padding: 3px 13px;
+    vertical-align: middle;
+}
+.secRight{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 82%;
+    margin: auto;
+
+}
+.thumbnill img{
+    border: 3px solid red; 
+    margin: 0px 17px;
+    border-radius: 133px;
+}
+.sectionTag{
+    padding: 26px 0px;
+}
+
+
